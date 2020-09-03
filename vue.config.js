@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: './dist',
+  publicPath: './',
   chainWebpack: (config) => {
     config.plugin('html').tap((args) => {
       const [obj] = args
