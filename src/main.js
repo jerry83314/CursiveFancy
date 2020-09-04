@@ -12,6 +12,8 @@ import $ from 'jquery'
 import router from './router'
 // Bootstrap JS
 import 'bootstrap'
+// Bus
+import './bus'
 // 表單驗證 start
 import { ValidationObserver, ValidationProvider, extend, localize, configure } from 'vee-validate'
 import * as rules from 'vee-validate/dist/rules'

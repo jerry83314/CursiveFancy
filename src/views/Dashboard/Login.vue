@@ -70,9 +70,12 @@ export default {
           )};`
 
           vm.$router.push('admin/products')
+
+          this.$bus.$emit('message:push', '登入成功', 'success')
         })
         .catch((err) => {
-          console.log(err)
+          console.log(err.response)
+          this.$bus.$emit('message:push', `${err.response.data.message}`, 'danger')
         })
     }
   }

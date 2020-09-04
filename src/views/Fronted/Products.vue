@@ -119,12 +119,13 @@ export default {
           console.log(res)
           vm.status.loadingItem = ''
           vm.isLoading = false
-          vm.getCarts()
+          vm.$bus.$emit('message:push', '加入成功', 'success')
         })
         .catch((err) => {
           console.log(err.response)
           vm.status.loadingItem = ''
           vm.isLoading = false
+          vm.$bus.$emit('message:push', `${err.response.data.errors}`, 'danger')
         })
     },
     selectCategory (status) {
