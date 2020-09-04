@@ -64,7 +64,7 @@
       </div>
       <div class="row">
         <div class="col-md-6">
-          <img src="https://hexschool-api.s3.us-west-2.amazonaws.com/custom/jD9ziga8DND7umdJDXNi6js77CvCv1YEJr2934t6OzLSLa3x3cfk1DJxCEfqRyQRfpA00y3tqNdsjSzuq4QQuRwoBczMzwmgg3u6bwgPux67hvWvEzCQDFDlKpGYIQx2.jpg" alt="" class="img-fluid">
+          <img data-aos="fade-up" src="https://hexschool-api.s3.us-west-2.amazonaws.com/custom/jD9ziga8DND7umdJDXNi6js77CvCv1YEJr2934t6OzLSLa3x3cfk1DJxCEfqRyQRfpA00y3tqNdsjSzuq4QQuRwoBczMzwmgg3u6bwgPux67hvWvEzCQDFDlKpGYIQx2.jpg" alt="" class="img-fluid">
         </div>
         <div class="col-md-6 m-auto text-center">
           <p class="text-main mt-4 mt-sm-0 mb-0">遇扇坊（CursiveFancy)，主營書藝作品，包含扇類（如摺扇、團扇）、傳統書畫（如掛軸、卷軸、對聯），以及畫仙板等各類型制之作。<br>
@@ -88,7 +88,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 mb-sm-5">
-            <div class="news__item">
+            <div data-aos="fade-up" class="news__item">
               <a target="_blank" href="http://www.artist-magazine.com/edcontent_d.php?lang=tw&tb=8&id=11682&fbclid=IwAR3MSo-2Rg8hjm0-KxFZdCBtZj3fMSK6SaZu3yRTMw4EgqmrPjY477LFPhs">
                 <div class="bg-cover" style="width: 100%; height: 300px; background-image: url(http://www.artist-magazine.com/archive/image/edcontent8/54334502.jpg);"></div>
               </a>
@@ -105,7 +105,7 @@
             </div>
           </div>
           <div class="col-md-6 mt-4 mt-sm-0 mb-sm-5">
-            <div class="news__item">
+            <div data-aos="fade-up" class="news__item">
               <a target="_blank" href="https://arthistorystrolls.com/2020/04/16/%e4%b8%8d%e6%b8%9b%e9%a2%a8%e9%9f%bb%ef%bc%9a-%e6%97%a5%e6%9c%ac%e6%89%8b%e5%b7%a5%e4%b8%8a%e8%89%b2%e8%9b%8b%e7%99%bd%e7%85%a7%e7%89%87%e4%b8%ad%e7%9a%84%e9%8f%a1%e7%be%8e%e4%ba%ba/?fbclid=IwAR3670rMkUBs89UC4SrdnEK6nB4b5KTbNBpMlw8_Fdmw072ul6emwHNsucs">
                 <div class="bg-cover" style="width: 100%; height: 300px; background-image: url(https://arthistorystroll.files.wordpress.com/2020/03/1-1.jpg);"></div>
               </a>
@@ -122,7 +122,7 @@
             </div>
           </div>
           <div class="col-md-6 mt-4 mt-sm-0">
-            <div class="news__item">
+            <div data-aos="fade-up" class="news__item">
               <a target="_blank" href="https://arthistorystrolls.com/2020/06/18/%e5%89%9d%e7%b9%ad%e6%8a%bd%e7%b5%b2%ef%bc%9a-%e6%97%a5%e6%9c%ac%e6%89%8b%e5%b7%a5%e4%b8%8a%e8%89%b2%e8%9b%8b%e7%99%bd%e7%85%a7%e7%89%87%e7%9a%84%e6%a1%91%e7%b9%94%e5%9c%96/">
                 <div class="bg-cover" style="width: 100%; height: 300px; background-image: url(https://arthistorystroll.files.wordpress.com/2020/06/3-2.jpg);"></div>
               </a>
@@ -139,7 +139,7 @@
             </div>
           </div>
           <div class="col-md-6 mt-4 mt-sm-0">
-            <div class="news__item">
+            <div data-aos="fade-up" class="news__item">
               <a target="_blank" href="https://arthistorystrolls.com/2020/03/12/%e6%97%a5%e6%9c%ac%e6%89%8b%e5%b7%a5%e4%b8%8a%e8%89%b2%e8%9b%8b%e7%99%bd%e7%85%a7%e7%89%87%e4%b8%ad%e7%9a%84%e7%9b%b8%e6%92%b2%e6%94%9d%e5%bd%b1/?fbclid=IwAR3VaXUMdOVu_HenElQNKDZ4MgWK9vdqvH2rJo8tekz718JZY40ABLRvYi4">
                 <div class="bg-cover" style="width: 100%; height: 300px; background-image: url(https://arthistorystroll.files.wordpress.com/2020/03/e4bd9ae5908defbc8ce3808ae79bb8e692b2e6af94e8b3bde3808b.jpg);"></div>
               </a>

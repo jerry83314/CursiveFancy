@@ -159,7 +159,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
   .title {
     margin-bottom: -10px;
   }
@@ -186,6 +186,11 @@ export default {
     &__shop {
       right: 15%;
       bottom: 10%;
+    }
+  }
+  @media (max-width: 576px) {
+    .jumbot {
+      background-attachment: scroll;
     }
   }
 </style>
