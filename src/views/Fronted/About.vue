@@ -1,13 +1,5 @@
 <template>
   <div>
-    <!-- <h2>關於我們</h2>
-    <div id="nav">
-      <router-link to="/">Home</router-link>|
-      <router-link to="/about">About</router-link>|
-      <router-link to="/products">Products</router-link>|
-      <router-link to="/cart">Cart</router-link> |
-      <router-link to="/admin">後台登入</router-link>
-    </div>-->
     <div class="container">
       <navbar></navbar>
     </div>
@@ -76,8 +68,67 @@
       </div>
     </div>
 
+    <!-- 作者簡介 -->
+    <div class="container my-4 my-sm-5">
+      <div class="row">
+        <div class="col-6 col-md-3 mx-auto">
+          <h2 class="newsComponent__title text-gray mb-4 mb-sm-5 p-1">作者簡介</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card border-0 h-100">
+            <img data-aos="fade-up" :src="authorImg.img_1" class="card-img-top rounded-0" alt="..." />
+            <div class="card-body text-center mb-2">
+              <h4 class="mt-3 mb-2 text-gray">創作者的貼身簡介</h4>
+              <div class="d-flex justify-content-between">
+                <p class="card-text text-main mb-0">
+                  <strong>張維晏</strong>，書道家、作家、文史研究者，擁有藝術史學研究的專業學術養成背景，以及豐富的整合行銷、出版和策展經驗。
+                </p>
+              </div>
+            </div>
+            <div class="card-footer text-right">
+              <a target="_blank" href="https://arthistorystrolls.com/2020/05/18/%e8%80%8d%e5%bb%a2%e6%8f%90%e9%ab%98%e6%95%88%e7%8e%87%ef%bc%9f%e7%9c%8b%e5%8a%87%e6%9c%89%e5%8a%a9%ef%bd%8f%ef%bd%8f%ef%bc%9f%e5%b0%88%e8%a8%aa%e3%80%88%e6%97%a5%e6%9c%ac%e6%89%8b%e5%b7%a5%e4%b8%8a/?fbclid=IwAR3JwGXsjaMiZGzkw2krZC8EO6LIucCCxeBj0jpyuY0eMZj1Ct60BJZUJhQ" class="btn btn-outline-gold">作者專訪</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-3 mt-sm-0">
+          <div class="card border-0 h-100">
+            <img data-aos="fade-up" :src="authorImg.img_2" class="card-img-top rounded-0" alt="..." />
+            <div class="card-body text-center">
+              <h4 class="mt-3 mb-2 text-gray">旅行與美的視覺書寫</h4>
+              <div class="d-flex justify-content-between">
+                <p class="card-text text-main mb-0">
+                  掌握藝術與文字工作者的雙重身分，以獨特視角以及細膩的鏡頭，捕捉旅行時每個探訪之地的濃厚韻味，以人文滋養靈感，以自然抒創作之欲。
+                </p>
+              </div>
+            </div>
+            <div class="card-footer text-right">
+              <a target="_blank" href="https://www.facebook.com/%E6%BC%AB%E9%81%8A%E8%97%9D%E8%A1%93%E5%8F%B2-1825133984386459" class="btn btn-outline-gold">漫遊藝術</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-3 mt-sm-0">
+          <div class="card border-0">
+            <img data-aos="fade-up" :src="authorImg.img_3" class="card-img-top rounded-0" alt="..." />
+            <div class="card-body text-center mb-2">
+              <h4 class="mt-3 mb-2 text-gray">怦然心動的古雅逸品</h4>
+              <div class="d-flex justify-content-between">
+                <p class="card-text text-main mb-0">
+                  遇扇坊的每件作品，都是書道人一筆一畫悉心而就獨一無二，淬冶著熾烈的匠心溫度，以及對藝術的虔誠與熱愛。願我們的作品，能帶給每位收藏者由衷的祝福與幸運。
+                </p>
+              </div>
+            </div>
+            <div class="card-footer text-right">
+              <router-link class="btn btn-outline-gold" to="/products">看作品去</router-link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- 藝術史專欄文章 -->
-    <section class="newsComponent my-4 my-sm-5">
+    <!-- <section class="newsComponent my-4 my-sm-5">
       <div class="container">
         <div class="row">
           <div class="col-10 col-md-3 mx-auto">
@@ -157,7 +208,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <myFooter></myFooter>
   </div>
@@ -171,58 +222,21 @@ export default {
   components: {
     navbar,
     myFooter
+  },
+  data () {
+    return {
+      authorImg: {
+        img_1: 'https://hexschool-api.s3.us-west-2.amazonaws.com/custom/yHskpcyIA7xwVORx7D9GvDNkDlfYK9672RBkDxiJUJsgri1rjzz37ZhzFvitcT8j1NXDYrfI9CYvzeDxThvimWMjemDlNoOLZlc05bhbV7cjM88msBO99VbjOsQDja9Y.jpg',
+        img_2: 'https://hexschool-api.s3.us-west-2.amazonaws.com/custom/1IqQyYT8tavyb2a2Wi1oohPvwNT4w4agC5wHgJOgoc1NqTBJCmhAdii1Z6e3bPGs3MxqRbsStqDO6zxOKKjVIuXYmkb8XtT64QSE8qVQNkdL9YGF3w0rTd5wi4eeXYiH.jpg',
+        img_3: 'https://hexschool-api.s3.us-west-2.amazonaws.com/custom/oe5tdK3KjkmmNkvId4yzVhhkPrFe3bdC9s4IptAzRZYDXuXTTscYgg2ybTrKS4qvWPzkPg3gfSun1vJ5xXFA0utyng5j3PINXEwNGv1mquEnPdCZweM2gaHmk8kOI2DE.jpg'
+      }
+    }
   }
 }
 </script>
 
 <style lang="scss">
-.bg-cover {
-  background-position: center center;
-  background-size: cover;
-}
 .carousel-inner {
   height: 500px;
-}
-.news {
-  &__item {
-    &__btn {
-      .line {
-        width: 100%;
-        height: 1px;
-        background-color: rgba(black, 0.1);
-      }
-      .btn-more {
-        width: 120px;
-        font-size: 13px;
-        line-height: 18px;
-        color: white;
-      }
-    }
-    &__content {
-      border-top: 4px solid #C2C287;
-      margin-top: -2px;
-      &__title {
-        padding: 15px;
-        a {
-          font-size: 18px;
-          line-height: 25px;
-          letter-spacing: 1px;
-          font-weight: 400;
-        }
-        p {
-          font-size: 13px;
-          line-height: 21px;
-          letter-spacing: 1px;
-          font-weight: 400;
-          margin-top: 10px;
-        }
-      }
-    }
-  }
-}
-.newsComponent {
-  &__title {
-    border-bottom: .5px solid #C2C287;
-  }
 }
 </style>

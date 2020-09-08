@@ -17,50 +17,39 @@
         </div>
       </div>
     </div>
-    <!-- 作者簡介 -->
-    <div class="container my-4 my-sm-5">
-      <div class="row mb-4 mb-sm-5">
-        <div class="col-md-12">
-          <h2>作者簡介</h2>
+
+    <div class="container my-5">
+      <h2 class="mb-5">匠人的獨特韻味</h2>
+      <div class="row mb-3">
+        <div class="col-md-10 mx-auto">
+          <div class="row align-items-center">
+            <div class="col-md-7">
+              <img data-aos="fade-right" width="100%" src="https://scontent.ftpe9-1.fna.fbcdn.net/v/t1.0-9/82831616_110659107127872_3216225503002230784_o.jpg?_nc_cat=101&_nc_sid=e3f864&_nc_ohc=QLJv6HQV_ycAX-xasHL&_nc_ht=scontent.ftpe9-1.fna&oh=16e71cf2cfb010aedb181deef77075e0&oe=5F7E456F" alt="">
+            </div>
+            <div class="col-md-5">
+              <div class="p-4">
+                <h4 class="text-gray mb-4 subTitle">書道人一筆一畫悉心而就</h4>
+                <p class="text-main">書道人精心挑選紙張材質，進而嚴選石磨品質，精而一筆一畫促成每個文字，
+                  逐一內容皆蘊含古色古香的文言，精緻的過程藉由書道人的溫度傳達。</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4">
-          <div class="card border-0">
-            <img data-aos="fade-up" :src="authorImg.img_1" class="card-img-top rounded-0" alt="..." />
-            <div class="card-body text-center">
-              <h4 class="mt-3 mb-2 text-gray">創作者的貼身簡介</h4>
-              <div class="d-flex justify-content-between">
-                <p class="card-text text-main mb-0">
-                  <strong>張維晏</strong>，書道家、作家、文史研究者，擁有藝術史學研究的專業學術養成背景，以及豐富的整合行銷、出版和策展經驗。
+        <div class="col-md-10 mx-auto">
+          <div class="row align-items-center">
+            <div class="col-md-5">
+              <div class="p-4">
+                <h4 class="text-gray mb-4 subTitle">龍蛇墨氣舒健的創作</h4>
+                <p class="text-main">漫遊藝術史的研究題材，讓靈感源源不絕，也從浮世繪去連結各個主題的圖像傳統，
+                  集結陶淵明、李白、王維、松尾芭蕉等詩詞，行書及草書書寫內容，每首詩詞附有隸書標題，
+                  而栩栩墨氣的作品就可安置在各裝飾上。
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="col-md-4 mt-3 mt-sm-0">
-          <div class="card border-0">
-            <img data-aos="fade-up" :src="authorImg.img_2" class="card-img-top rounded-0" alt="..." />
-            <div class="card-body text-center">
-              <h4 class="mt-3 mb-2 text-gray">旅行與美的視覺書寫</h4>
-              <div class="d-flex justify-content-between">
-                <p class="card-text text-main mb-0">
-                  掌握藝術與文字工作者的雙重身分，以獨特視角以及細膩的鏡頭，捕捉旅行時每個探訪之地的濃厚韻味，以人文滋養靈感，以自然抒創作之欲。
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mt-3 mt-sm-0">
-          <div class="card border-0">
-            <img data-aos="fade-up" :src="authorImg.img_3" class="card-img-top rounded-0" alt="..." />
-            <div class="card-body text-center">
-              <h4 class="mt-3 mb-2 text-gray">怦然心動的古雅逸品</h4>
-              <div class="d-flex justify-content-between">
-                <p class="card-text text-main mb-0">
-                  遇扇坊的每件作品，都是書道人一筆一畫悉心而就獨一無二，淬冶著熾烈的匠心溫度，以及對藝術的虔誠與熱愛。願我們的作品，能帶給每位收藏者由衷的祝福與幸運。
-                </p>
-              </div>
+            <div class="col-md-7">
+              <img data-aos="fade-left" width="100%" src="https://scontent.ftpe9-1.fna.fbcdn.net/v/t1.0-9/96582307_164661005061015_1378655919008645120_o.jpg?_nc_cat=105&_nc_sid=8bfeb9&_nc_ohc=ADjsk8eKjXUAX_ttYkw&_nc_ht=scontent.ftpe9-1.fna&oh=fcbd2e7b8754f5c5378de6d282980f31&oe=5F7E5970" alt="">
             </div>
           </div>
         </div>
@@ -144,11 +133,6 @@ export default {
   },
   data () {
     return {
-      authorImg: {
-        img_1: 'https://hexschool-api.s3.us-west-2.amazonaws.com/custom/yHskpcyIA7xwVORx7D9GvDNkDlfYK9672RBkDxiJUJsgri1rjzz37ZhzFvitcT8j1NXDYrfI9CYvzeDxThvimWMjemDlNoOLZlc05bhbV7cjM88msBO99VbjOsQDja9Y.jpg',
-        img_2: 'https://hexschool-api.s3.us-west-2.amazonaws.com/custom/1IqQyYT8tavyb2a2Wi1oohPvwNT4w4agC5wHgJOgoc1NqTBJCmhAdii1Z6e3bPGs3MxqRbsStqDO6zxOKKjVIuXYmkb8XtT64QSE8qVQNkdL9YGF3w0rTd5wi4eeXYiH.jpg',
-        img_3: 'https://hexschool-api.s3.us-west-2.amazonaws.com/custom/oe5tdK3KjkmmNkvId4yzVhhkPrFe3bdC9s4IptAzRZYDXuXTTscYgg2ybTrKS4qvWPzkPg3gfSun1vJ5xXFA0utyng5j3PINXEwNGv1mquEnPdCZweM2gaHmk8kOI2DE.jpg'
-      },
       itemImg: {
         img_1: 'https://hexschool-api.s3.us-west-2.amazonaws.com/custom/giq5obZEvBchFkyCRjZdm4OIUDLckRCyKeyegDuRduXKuIPX4ai5GSYuLoubAmHXK60r62Wvysvl1NBRbfgHOhDW2l6rFKtMSkcnEsm1KPtP64fdhO8ZmyExBt8c24NO.jpg',
         img_2: 'https://hexschool-api.s3.us-west-2.amazonaws.com/custom/r7GRxcKQWvy0ovEj3ekniLljyxO3bqFdjRaigk9QlepiXjgzw29NAqhrTO9mrXBZvLpgVIJW0mW2T9r60BKBYsNfbaPxfmiR9Tzdh5ac5qw9PCGzhwUtviBWpz5TXG9S.jpg',
@@ -160,6 +144,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  .subTitle {
+    border-bottom: 1px solid #C2C287;
+    padding-bottom: 5px;
+  }
   .title {
     margin-bottom: -10px;
   }
